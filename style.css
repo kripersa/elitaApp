@@ -76,3 +76,25 @@ tr:nth-child(odd) {
   width: 100%;
   margin-bottom: 20px;
 }
+
+@media screen and (max-width: 768px) {
+  .content {
+    flex-direction: column;
+  }
+  .content select,
+  .content input {
+    width: 80%;
+    margin-bottom: 10px;
+  }
+  .btn {
+    width: 80%;
+  }
+  .header {
+    flex-direction: column;
+    margin-bottom: 15px;
+  }
+  .result-box {
+    font-size: 12px;
+  }
+}
+  
